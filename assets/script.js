@@ -32,7 +32,6 @@ $(document).ready(function(){
 })
 
 //local storage retrieval
-//document.getElementById("#9 .description").val(localStorage.getItem("9"));
 $("#9 .description").val(localStorage.getItem("9"));
 $("#10 .description").val(localStorage.getItem("10"));
 $("#11 .description").val(localStorage.getItem("11"));
@@ -44,5 +43,3 @@ $("#16 .description").val(localStorage.getItem("16"));
 $("#17 .description").val(localStorage.getItem("17"));
 timeBlockColor();
 
-//credit for timeBlockColor function: https://github.com/mmeii/work-day-scheduler/blob/main/Assets/script.js
-//credit for localstorage: https://github.com/sylviaprabudy/work-day-scheduler/blob/master/assets/js/script.js
